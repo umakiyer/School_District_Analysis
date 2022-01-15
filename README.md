@@ -13,7 +13,7 @@ Analyzing the student data &amp; school district budget
 Using the "loc' function replaced the math & reading  score of 9th grade students in Thomas High School. 
 
 * The student data file after  replacing the score with Na
-![School_data_original](Images/Student_Data_After_Replacing_with_NaN.png)
+![School_data_original](Images/Student_Data_After_Replacing_with_NaN.PNG)
 
 ## Deliverable 2: The School District Analysis 
 ### 1. District Summary of the school 
@@ -29,7 +29,7 @@ District School Summary with 9th Grade Thomas High School Students
 ![District_School_Summary](Images/School_District_Summary_with_9th_gradeTHS.PNG)
 
 District School Summary without 9th Grade Thomas High School Students
-![District_School_Summary](Images/School_District_Summary_without_9th_gradeTHS.png)
+![District_School_Summary](Images/School_District_Summary_without_9th_gradeTHS.PNG)
    
 ### 2. The School Summary
 * Calculated the per capita spending for each school
@@ -40,11 +40,11 @@ District School Summary without 9th Grade Thomas High School Students
 
 The School Summary with 9th Grade student Thomas High School included
 
-![School_Summary](Images/School_Summary_with_9th_gradeTHS.png)
+![School_Summary](Images/School_Summary_with_9th_gradeTHS.PNG)
 
 The School Summary with 9th Grade student Thomas High School excluded
 
-![School_Summary](Images/School_Summary_without_9th_gradeTHS.png)
+![School_Summary](Images/School_Summary_without_9th_gradeTHS.PNG)
 
 ### 3. The top 5 and bottom 5 performing schools, based on the overall passing rate
 * Using the sort_values function on the overall passing score for the school created data frame for top 5 schools & bottom 5 schools in teh district.
