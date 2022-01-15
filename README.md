@@ -26,7 +26,7 @@ Using the "loc' function replaced the math & reading  score of 9th grade student
 * Created dataframe for the district school summary.
 
 District School Summary with 9th Grade Thomas High School Students
-![District_School_Summary](Images/School_District_Summary_with_9th_gradeTHS.png)
+![District_School_Summary](Images/School_District_Summary_with_9th_gradeTHS.PNG)
 
 District School Summary without 9th Grade Thomas High School Students
 ![District_School_Summary](Images/School_District_Summary_without_9th_gradeTHS.png)
