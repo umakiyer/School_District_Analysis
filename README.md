@@ -20,7 +20,7 @@ Using the "loc' function replaced the math & reading  score of 9th grade student
 ### 1. District Summary of the school 
 *  Merged the student & school data file into one data frame using the function "merge".
 * Calculated the total budget of the school (sum of the the budget column).
-* Calculated the average math & reading scores of high students.
+* Calculated the average math & reading scores of the students.
 * Calculated the number of students in 9th grade in Thomas High School & the total number of students in school district. 
 * Subtracted the number of student in 9th grade from Thomas High School to get the new total number of students.
 * Calculated the passing math & reading score, average math & reading score, percentage of the math & reading score, overall passing percentage of the students(without the 9th grade Thomas High School student).
@@ -35,7 +35,7 @@ District School Summary excluding 9th Grade Thomas High School students:
 ### 2. The School Summary
 * Calculated the per capita spending for each school.
 * Calculated the average math & reading score for each school (using the 'groupby' function).
-* Calculated the number of students passing math, reading and both (70% or more score).
+* Calculated the number of students passing math, reading and both subjects (70% or more score).
 * Calculated the percenatge of students passing math, reading and both.
 * Created the dataframe using the above data.
 
@@ -66,8 +66,8 @@ The bottom five performing school excluding 9th Grade students of Thomas High Sc
 
 ![image](Images/Bottom_5_School_without_9th_grade_THS.PNG)
 
-### 4. The average math score by grade level for each school
-* Created a 'Series' of scores by grade levels using conditionals.
+### 4. The average math score by grade level for each school:
+* Created a 'Series' of math scores by grade levels using conditionals.
 * Created a 'Series' by the school name for the average math score.
 * Set the 'index name' to none. 
 
@@ -79,8 +79,8 @@ Grade wise math score excluding 9th Grade students of Thomas High School student
 
 ![image](Images/Grade_wise_math_score_without_9th_grade.PNG)
 
-### 5. The average reading score by grade level for each school
-* Created a 'Series' of scores by grade levels using conditionals.
+### 5. The average reading score by grade level for each school:
+* Created a 'Series' of reading scores by grade levels using conditionals.
 * Created a 'Series' by the school name for the average reading score .
 * Set the 'index name' to none. 
 
@@ -112,10 +112,10 @@ Grade wise reading score excluding 9th Grade students of Thomas High School stud
 * How is the school summary affected?
    * The passing percenatge for the math, reading & overall passing  for Thomas High School decreased roughly by 30%.
 * How does replacing the ninth graders math and reading scores affect Thomas High School’s performance relative to the other schools?
-   * Thomas High School still was still in Top 5 performing schools.
+   * Thomas High School still was in Top 5 performing schools.
 * How does replacing the ninth-grade scores affect the following:
   * Math and reading scores by grade
-      * The math & reading grades for the 10-12th  grade didn't change. The ninth grade math & reading school were changed to 'null' as per requirement.
+      * The math & reading grades for the 10-12th grade didn't change. The ninth grade math & reading school were changed to 'null' as per requirement.
   * Scores by school spending
     * The scores by school spending didn't change.
   * Scores by school size
