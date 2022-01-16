@@ -5,11 +5,6 @@
 Analyze the student data &amp; school district budget 
 * The data file shows evidence of academic dishonesty in math & reading scores of Thomas High School's 9th grade students.
 * The school board wants  the school district analysis to be rerun after nullyfying the  math & reading scores for Thomas High School's 9th grade students.
-=======
-Analyzing the student data &amp; school district budget 
-* The data file showed evidence of academic dishonesty in Math & reading scores of Thomas High schools 9th grade.
-* The school board wants the school district analysis to be rerun after making the 9th grade score for math & reading 'Null' for Thomas High School.
-
 
 ## Deliverable 1: Replaceing  Ninth-Grade Reading and Math Scores with Null ( NaN) 
 * The student data file before replacing the score:
