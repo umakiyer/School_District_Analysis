@@ -47,5 +47,60 @@ The School Summary with 9th Grade student Thomas High School excluded
 ![School_Summary](Images/School_Summary_without_9th_gradeTHS.PNG)
 
 ### 3. The top 5 and bottom 5 performing schools, based on the overall passing rate
-* Using the sort_values function on the overall passing score for the school created data frame for top 5 schools & bottom 5 schools in teh district.
+* Using the sort_values function on the overall passing score for the school created data frame for top 5 schools & bottom 5 schools in the district.
 
+The top five performing school with 9th garde student from Thomas High School included.
+
+![image](Images/Top_5_School_with_9th_grade_THS.PNG)
+
+The top five performing school with 9th garde student from Thomas High School excluded.
+
+![image](Images/Top_5_School_without_9th_grade_THS.PNG) 
+
+The bottom five performing school with 9th garde student from Thomas High School included.
+
+![image](Images/Bottom_5_School_with_9th_grade_THS.PNG)
+
+The bottom five performing school with 9th garde student from Thomas High School excluded.
+
+![image](Images/Bottom_5_School_without_9th_grade_THS.PNG)
+
+### 4. The average math score for each grade level from each school
+* Created a Series of scores by grade levels using conditionals.
+* Created a Series by the school name for the average math score.
+* Set the index name to none. 
+
+Grade wise math score with 9th grade student from Thomas High School included.
+
+![image](Images/Grade_wise_math_score_with_9th_grade.PNG)
+
+Grade wise math score with 9th grade student from Thomas High School excluded.
+
+![image](Images/Grade_wise_math_score_without_9th_grade.PNG)
+
+### 5. The average reading score for each grade level from each school
+* Created a Series of scores by grade levels using conditionals.
+* Created a Series by the school name for the average reading score .
+* Set the index name to none. 
+
+Grade wise reading score with 9th grade student from Thomas High School included.
+
+![image](Images/Grade_wise_reading_score_with_9th_grade.PNG)
+
+Grade wise reading score with 9th grade student from Thomas High School excluded.
+
+![image](Images/Grade_wise_reading_score_without_9th_grade.PNG)
+
+### 6. The scores by school spending per student, by school size, and by school type 
+* Using the 'Describe' function , found the minimum & maximum of the per school capita data frame.
+* created  separate "spending bins' & group names for spending by students, school size & school type.
+* created data frame for each catogory & formatted the colums.
+
+ ### 6a. The score by School Spending 
+ ![image](Images/Score_by_school_spending.PNG)   
+
+   ### 6b.The score by School Size
+![Image](Images/Score_by_school_size.PNG)
+
+   ### 6c. The score by School Type
+![image](Images/Score_by_school_district.PNG)
