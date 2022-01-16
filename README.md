@@ -9,12 +9,12 @@ Analyze the student data &amp; school district budget
 ## Deliverable 1: Replaceing  Ninth-Grade Reading and Math Scores with Null ( NaN) 
 * The student data file before replacing the score:
 
-![School_data_original](Images/Student_Data_Original.PNG) 
+![image](Images/Images/Student_Data_Original.PNG) 
 
 Using the "loc' function replaced the math & reading  score of 9th grade students in Thomas High School. 
 
 * The student data file after replacing the score with NaN:
-![School_data_original](Images/Student_Data_After_Replacing_with_NaN.PNG)
+![image](Images/Student_Data_After_Replacing_with_NaN.PNG)
 
 ## Deliverable 2: The School District Analysis 
 ### 1. District Summary of the school 
