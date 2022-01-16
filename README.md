@@ -6,63 +6,63 @@ Analyze the student data &amp; school district budget
 * The data file shows evidence of academic dishonesty in math & reading scores of Thomas High School's 9th grade students.
 * The school board wants  the school district analysis to be rerun after nullyfying the  math & reading scores for Thomas High School's 9th grade students.
 
-## Deliverable 1: Replaceing  Ninth-Grade Reading and Math Scores with Null ( NaN) 
+## Deliverable 1: Replacing  Ninth-grade Reading and Math Scores with Null ( NaN) 
 * The student data file before replacing the score:
 
 ![image](Images/Student_Data_Original.PNG) 
 
-Using the "loc' function replaced the math & reading  score of 9th grade students in Thomas High School. 
+Using the "loc' function replaced the math & reading  scores of 9th grade students in Thomas High School. 
 
 * The student data file after replacing the score with NaN:
 ![image](Images/Student_Data_After_Replacing_with_NaN.PNG)
 
-## Deliverable 2: The School District Analysis 
-### 1. District Summary of the school 
+## Deliverable 2: The School District Analysis :
+### 1. District Summary of the schools 
 *  Merged the student & school data file into one data frame using the function "merge".
-* Calculated the total budget of the school (sum of the the budget column).
+* Calculated the total budget of the school (sum of the budget column).
 * Calculated the average math & reading scores of the students.
 * Calculated the number of students in 9th grade in Thomas High School & the total number of students in school district. 
 * Subtracted the number of student in 9th grade from Thomas High School to get the new total number of students.
-* Calculated the passing math & reading score, average math & reading score, percentage of the math & reading score, overall passing percentage of the students(without the 9th grade Thomas High School student).
+* Calculated the passing math & reading scores, average math & reading scores, percentage of the math & reading scores, overall passing percentage of the students(without the 9th grade Thomas High School student).
 * Created dataframe of district school summary.
 
-District School Summary including 9th Grade Thomas High School students:
+District School Summary including 9th grade Thomas High School students:
 ![District_School_Summary](Images/School_District_Summary_with_9th_gradeTHS.PNG)
 
-District School Summary excluding 9th Grade Thomas High School students:
+District School Summary excluding 9th grade Thomas High School students:
 ![District_School_Summary](Images/School_District_Summary_without_9th_gradeTHS.PNG)
    
-### 2. The School Summary
+### 2. The School Summary:
 * Calculated the per capita spending for each school.
-* Calculated the average math & reading score for each school (using the 'groupby' function).
+* Calculated the average math & reading scores for each school (using the 'groupby' function).
 * Calculated the number of students passing math, reading and both subjects (70% or more score).
 * Calculated the percenatge of students passing math, reading and both.
 * Created the dataframe using the above data.
 
-The School Summary including 9th Grade students of Thomas High School students:
+The School Summary including 9th grade students of Thomas High School students:
 
 ![School_Summary](Images/School_Summary_with_9th_gradeTHS.PNG)
 
-The School Summary excluding 9th Grade students of Thomas High School students:
+The School Summary excluding 9th grade students of Thomas High School students:
 
 ![School_Summary](Images/School_Summary_without_9th_gradeTHS.PNG)
 
-### 3. The five top and bottom performing schools, based on the overall passing rate
+### 3. The five top and bottom performing schools, based on the overall passing rate:
 * Using the "sort_values" function on the overall passing score for the school, created data frame for top 5 schools & bottom 5 schools in the district.
 
-The top five performing school including 9th grade Thomas High School students:
+The top five performing schools including 9th grade Thomas High School students:
 
 ![image](Images/Top_5_School_with_9th_grade_THS.PNG)
 
-The top five performing school excluding 9th Grade students of Thomas High School students:
+The top five performing schools excluding 9th Grade students of Thomas High School students:
 
 ![image](Images/Top_5_School_without_9th_grade_THS.PNG) 
 
-The bottom five performing school including 9th grade Thomas High School students:
+The bottom five performing schools including 9th grade Thomas High School students:
 
 ![image](Images/Bottom_5_School_with_9th_grade_THS.PNG)
 
-The bottom five performing school excluding 9th Grade students of Thomas High School students:
+The bottom five performing schools excluding 9th Grade students of Thomas High School students:
 
 ![image](Images/Bottom_5_School_without_9th_grade_THS.PNG)
 
@@ -97,13 +97,13 @@ Grade wise reading score excluding 9th Grade students of Thomas High School stud
 * created "spending bins' & "group names" for each of the catogories (spending by students, school size & school type).
 * created data frame for each catogory & formatted the colums.
 
- ### 6a. The score by School spending per student
+ ### 6a. The score by school spending per student
  ![image](Images/Score_by_school_spending.PNG)   
 
-   ### 6b.The score by School size
+   ### 6b.The score by school size
 ![Image](Images/Score_by_school_size.PNG)
 
-   ### 6c. The score by School type
+   ### 6c. The score by school type
 ![image](Images/Score_by_school_district.PNG)
 
 ### Results
@@ -123,8 +123,8 @@ Grade wise reading score excluding 9th Grade students of Thomas High School stud
   * Scores by school type
       * The scores by School type didn't change.
 ### Summary
- * The district school summary changed marginally (1,1%).
- * The school summary changed because the passing percenatage for math, reading & both , decreased by 30% for Thomas High School. 
+ * The district school summary changed marginally (1.1%).
+ * The school summary changed because the passing percenatage for math, reading & both, decreased by 30% for Thomas High School. 
  * Eventhough the overall scores changed for the Thomas High School, it still was in the top five performing schools.
  * The scores by school spending per student/ per school size/school type didn't change.
 
