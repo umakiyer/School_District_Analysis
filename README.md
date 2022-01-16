@@ -105,3 +105,22 @@ Grade wise reading score with 9th grade students from Thomas High School exclude
    ### 6c. The score by School Type
 ![image](Images/Score_by_school_district.PNG)
 
+### Results
+* How is the district summary affected?
+   * The district school summary changed marginally. The ninth grade students in Thomas High School are 1.1% of the total number of students. 
+* How is the school summary affected?
+   * The passing percenatge for the math, reading & overall passing  for Thomas High School decreased roughly by 30%
+* How does replacing the ninth graders math and reading scores affect Thomas High School’s performance relative to the other schools?
+   * Thomas High School still was still in Top 5 performing schools.
+* How does replacing the ninth-grade scores affect the following:
+  * Math and reading scores by grade
+      * The math & reading grades for the 10-12th  grade didn't change. The ninth grade math & reading school were changed to 'null' as per requirement.
+  * Scores by school spending
+    * The scores by school spending didn't change.
+  * Scores by school size
+      * The scores by school size didn't change.
+  * Scores by school type
+      * The scores by School type didn't change.
+### Summary
+
+
