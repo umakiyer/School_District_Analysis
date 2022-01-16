@@ -70,11 +70,11 @@ The bottom five performing school with 9th grade students from Thomas High Schoo
 * Created a Series by the school name for the average math score.
 * Set the index name to none. 
 
-Grade wise math score with 9th grade student from Thomas High School included.
+Grade wise math score with 9th grade students from Thomas High School included.
 
 ![image](Images/Grade_wise_math_score_with_9th_grade.PNG)
 
-Grade wise math score with 9th grade student from Thomas High School excluded.
+Grade wise math score with 9th grade students from Thomas High School excluded.
 
 ![image](Images/Grade_wise_math_score_without_9th_grade.PNG)
 
@@ -104,3 +104,4 @@ Grade wise reading score with 9th grade students from Thomas High School exclude
 
    ### 6c. The score by School Type
 ![image](Images/Score_by_school_district.PNG)
+
