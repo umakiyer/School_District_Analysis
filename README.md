@@ -9,7 +9,7 @@ Analyze the student data &amp; school district budget
 ## Deliverable 1: Replaceing  Ninth-Grade Reading and Math Scores with Null ( NaN) 
 * The student data file before replacing the score:
 
-![image](Images/Images/Student_Data_Original.PNG) 
+![image](Images/Student_Data_Original.PNG) 
 
 Using the "loc' function replaced the math & reading  score of 9th grade students in Thomas High School. 
 
@@ -29,7 +29,7 @@ Using the "loc' function replaced the math & reading  score of 9th grade student
 District School Summary including 9th Grade Thomas High School students:
 ![District_School_Summary](Images/School_District_Summary_with_9th_gradeTHS.PNG)
 
-District School Summary exculding 9th Grade Thomas High School students:
+District School Summary excluding 9th Grade Thomas High School students:
 ![District_School_Summary](Images/School_District_Summary_without_9th_gradeTHS.PNG)
    
 ### 2. The School Summary
